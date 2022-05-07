@@ -24,7 +24,7 @@ async def main():
     exchange = ccxtpro.binance({
         "apiKey": "",
         "secret": "",
-        'emableRateLimit': True,
+        'enableRateLimit': True,
         'newUpdates': True,
     })
     # you must make a an order a transfer first to the websocket to send updates
